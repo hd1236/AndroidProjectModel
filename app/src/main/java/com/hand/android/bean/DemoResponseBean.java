@@ -3,12 +3,6 @@ package com.hand.android.bean;
 public class DemoResponseBean {
 
 
-    /**
-     * code : 0
-     * requestId : fb10cdf6-6385-11ea-af5a-0242c0a8100a
-     * msg : success
-     * data : {"id":3,"putUrl":"https://cstorage.oss-cn-shenzhen.aliyuncs.com/temperature%2Fdevelopment%2F3%2Fpreview.png?Expires=1583926768&OSSAccessKeyId=LTAIxIARX95tLOLH&Signature=A4w1G5sRSG0tKUwKbP%2BHS7RaRVA%3D"}
-     */
 
     private int code;
     private String requestId;
@@ -48,10 +42,6 @@ public class DemoResponseBean {
     }
 
     public static class DataBean {
-        /**
-         * id : 3
-         * putUrl : https://cstorage.oss-cn-shenzhen.aliyuncs.com/temperature%2Fdevelopment%2F3%2Fpreview.png?Expires=1583926768&OSSAccessKeyId=LTAIxIARX95tLOLH&Signature=A4w1G5sRSG0tKUwKbP%2BHS7RaRVA%3D
-         */
 
         private int id;
         private String putUrl;
